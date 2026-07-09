@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — BRND, Adelaide</title>
+<title>Contact — BRND Creative, Adelaide</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -31,7 +31,8 @@
     display:flex;justify-content:space-between;align-items:center;
     padding:24px 5vw;mix-blend-mode:difference;
   }
-  .logo{font-size:1.1rem;font-weight:700;letter-spacing:0.08em;}
+  .logo{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:700;letter-spacing:0.08em;display:flex;flex-direction:column;line-height:1.05;gap:3px;}
+  .logo-sub{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:0.55rem;letter-spacing:0.32em;color:var(--accent);}
   nav ul{list-style:none;display:flex;gap:32px;font-size:0.85rem;}
   nav a{color:var(--text-dim);transition:color .2s;}
   nav a:hover,nav a.active{color:var(--text);}
@@ -88,7 +89,7 @@
 <body>
 
 <header>
-  <a href="index.html" class="logo">BRND</a>
+  <a href="index.html" class="logo">BRND<span class="logo-sub">CREATIVE</span></a>
   <nav>
     <ul>
       <li><a href="services.html">Services</a></li>
@@ -163,7 +164,7 @@
 </section>
 
 <footer>
-  <div>BRND — Content Studio<br>Adelaide, South Australia</div>
+  <div>BRND Creative — Content Studio<br>Adelaide, South Australia</div>
   <div class="mono"><a href="mailto:hello@brnd.studio">hello@brnd.studio</a></div>
   <div class="mono">INSTAGRAM — TIKTOK — LINKEDIN</div>
 </footer>
